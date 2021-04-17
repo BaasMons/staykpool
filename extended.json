@@ -1,0 +1,27 @@
+{
+    "info": {
+        "url_png_icon_64x64": "URL to image40x40.png",
+        "url_png_logo": "url to image 50x50.png",
+        "location": "Den Haag, Netherlands",
+        "social": {
+            "instagram_handle": "",
+            "discord_handle": "",
+            "reddit_handle": "https://www.reddit.com/user/STAYK_Pool/",
+            "twitter_handle": "STAYKPool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "telegram_handle": "",
+            "github_handle": "BaasMons"
+        },
+        "company": {
+            "name": ""
+        },
+        "about": {
+            "me": "",
+            "server": "",
+            "company": ""
+            },
+    "rss": ""
+    },
+},
