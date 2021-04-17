@@ -1,26 +1,5 @@
 {
-    "info": {
-        "",
-        "location": "Den Haag, Netherlands",
-        "social": {
-            "
-        },
-        "company": {
-            "name": ""
-        },
-        "about": {
-            "me": "",
-            "server": "",
-            "company": ""
-            },
-    "rss": ""
-    },
-},
-
-
-{
-    "how-to-implement": "in your meta.json - define *extended* with url to this (json) file - https://raw.githubusercontent.com/cardanians/adapools.org/master/example-meta.json",
-    "info": {
+        "info": {
         "http://staykpool.com/wp-content/uploads/2021/04/Stayk_Antraciet_Icon_64x64.jpg",
         "location": "London, England",
         "social": {
