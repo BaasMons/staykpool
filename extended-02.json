@@ -1,21 +1,22 @@
 {
        "info": {
-        "url_png_icon_64x64": "https://charity-pool.ro/chrty_logo.png",
-        "location": "Bucharest, Romania",
+        "url_png_icon_64x64": "http://staykpool.com/wp-content/uploads/2021/04/Stayk_Antraciet_Icon_64x64.jpg",
+        "location": "Den Haag, The Netherlands",
         "social": {
-            "twitter_handle": "ChrtyPool",
-            "telegram_handle": "charitypool",
-            "github_handle": "Alexd1985"
+            "reddit_handle": "u/STAYK_Pool/",
+            "twitter_handle": "STAYKPool",
+            "facebook_handle": "https://www.facebook.com/StaykPool",
+            "github_handle": "BaasMons"
         },
         "about": {
             "me": "Single Pool Operator",
-            "server": "Bare Metal Server  + Relays located in Germany (cloud) and Romania (Bare Metal) | HW configuration of servers <CPU:8core|RAM:32G|SSD:256G"
+            "server": "1x Cloudbased Block producer, 2x Bare Metal relays and 1 x Cloud relay"
     },
     "my-pool-ids": {
-        "0": "00333b89543da962cc92e7ffa45848f42a98f7276780670728ce5256"
+        "0": "fd6049e6058460efa683a0e090e5b98d0ea1d6db539a5a9b0bc649de"
     },
     "when-satured-then-recommend": {
-        "0": "small pools - support decentralization"
+        "0": "Any F2LB Pool - support decentralization"
     }
 }
 }
