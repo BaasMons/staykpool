@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "STAYK Pool"
+    },
+    "motivations": {
+      "@value": "Cardano must be managed carefully, and with as many voices as possible, channeling voices and opinions in to more streamlined and visible channels is a way to include many people, without become to big for consensus"
+    },
+    "objectives": {
+      "@value": "My mission as a Drep will be to read, learn about and constructively criticise proposales and governance actions and relay them back to the delegators that have vested their trust in me to do so."
+    },
+    "paymentAddress": {
+      "@value": "addr1qx2cded36ugj2h06fvtesfk35f5t4hjjvdy089l30ld0s5dvt6ddwk44zjurkys8rulw4p9rakd55ddshlm3cssw992s4t9quy"
+    },
+    "qualifications": {
+      "@value": "I work in Healthcare, seemingly irrelevant, but when it comes to finding out peoples motivations, and exploring those in ways that make their intent more clear I believe I can help clarify these matters in a productive manner."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "https://x.com/STAYKPool"
+        },
+        "uri": {
+          "@value": "https://www.staykpool.com/"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Drep registration page"
+        },
+        "uri": {
+          "@value": "https://staykpool.com/drepregistration/"
+        }
+      }
+    ]
+  }
+}
