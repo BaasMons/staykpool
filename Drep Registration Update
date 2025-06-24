@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "STAYK Pool",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://avatars.githubusercontent.com/u/79046453?v=4",
+      "sha256": "83351389cabf43a995896bdc1839fb9abab70213984b78bbffda349a9d2f665f"
+    },
+    "motivations": "Cardano must be managed carefully, and with as many voices as possible, channeling voices and opinions in to more streamlined and visible channels is a way to include many people, without become to big for consensus",
+    "objectives": "My mission as a Drep will be to read, learn about and constructively criticise proposales and governance actions and relay them back to the delegators that have vested their trust in me to do so.",
+    "paymentAddress": "addr1qx2cded36ugj2h06fvtesfk35f5t4hjjvdy089l30ld0s5dvt6ddwk44zjurkys8rulw4p9rakd55ddshlm3cssw992s4t9quy",
+    "qualifications": "I work in Healthcare, seemingly irrelevant, but when it comes to finding out peoples motivations, and exploring those in ways that make their intent more clear I believe I can help clarify these matters in a productive manner.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "https://x.com/STAYKPool",
+        "uri": "https://www.staykpool.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Drep registration page",
+        "uri": "https://staykpool.com/drepregistration/"
+      }
+    ]
+  }
+}
